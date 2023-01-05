@@ -1,0 +1,27 @@
+
+naver:
+  url:
+    search:
+      local: https://openapi.naver.com/v1/search/local.json
+      image: https://openapi.naver.com/v1/search/image
+  client:
+    id: 0qnhoAjPp7_hM5LSodVE
+    secret: 6nBmWk1fg2
+server:
+  port: 9090
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#    generate-ddl: false #자동으로 엔티티에서 활용하고 있는 테이블을 생성해줌
+#    hibernate:
+#      ddl-auto: create-drop #generate-ddl보다 좀더 세밀한옵션값
+
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/
+#    username: root
+#    password: Abcd123!
